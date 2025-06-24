@@ -1,0 +1,34 @@
+# String in Python
+
+# Creating Strings
+my_string = "Hello, World!"
+multiline_string = '''This is
+a multiline string.'''
+
+# Accessing Characters
+print("First character:", my_string[0])
+print("Last character:", my_string[-1])
+
+# String Slicing
+print("Slice (0:5):", my_string[0:5])
+print("Slice with step:", my_string[::2])
+
+# String Methods
+print("Uppercase:", my_string.upper())
+print("Lowercase:", my_string.lower())
+print("Title Case:", my_string.title())
+print("Replace:", my_string.replace("World", "Python"))
+print("Find:", my_string.find("World"))
+print("Starts with 'Hello':", my_string.startswith("Hello"))
+print("Ends with '!':", my_string.endswith("!"))
+
+# String Formatting
+name = "Alice"
+age = 30
+print(f"My name is {name} and I am {age} years old.")
+print("My name is {} and I am {} years old.".format(name, age))
+
+# Looping Through a String
+print("Looping through string:")
+for char in my_string:
+    print(char)
